@@ -1,8 +1,7 @@
-require "./person"
+require './person'
 class Teacher < Person
-
-  def initialize(specialization, age, name="Unkown")
-    super(parent_permission=true)
+  def initialize(specialization, age, name = 'Unkown')
+    super(true)
     @specialization = specialization
     @age = age
     @name = name
@@ -11,8 +10,7 @@ class Teacher < Person
   def can_use_services?
     true
   end
-
 end
 
-teacher = Teacher.new("Tecaher", 24)
+teacher = Teacher.new('Tecaher', 24)
 p teacher.can_use_services?
