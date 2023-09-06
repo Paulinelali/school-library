@@ -12,7 +12,6 @@ class Person
   def can_use_services?
     @age > 18 || @parent_permission == true
   end
-  # private methods
 
   private
 
@@ -20,6 +19,3 @@ class Person
     @age > 18
   end
 end
-
-# person = Person.new(12)
-# puts person.can_use_services?
