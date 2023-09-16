@@ -1,2 +1,0 @@
-class Claculator
-  def sum
