@@ -1,26 +1,16 @@
 require_relative 'person'
-require_relative 'classroom'
 
 class Student < Person
-  def initialize(age:, name: 'Unknown', parent_permission: true)
+  def initialize(age:, classroom:, name: 'Unknown', parent_permission: true)
     super(name: name, age: age, parent_permission: parent_permission)
-    @classroom = []
-  end
-
-  def self.new_from_hash(hash)
-    new(age: hash[:age], name: hash[:name], parent_permission: hash[:parent_permission])
-  end
-
-  def to_hash
-    super.merge(classroom: @classroom)
+    @classroom = classroom
   end
 
   def play_hooky
     '¯\\(ツ)/¯'
   end
-
-  def classroom=(classroom)
-    @classroom = classroom
-    classroom.students.push(self) unless classroom.students.include?(self)
-  end
 end
+
+student = Student.new(age: 18, parent_permission: true, classroom: '7-B')
+
+puts student.play_hooky
