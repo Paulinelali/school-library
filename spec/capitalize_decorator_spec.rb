@@ -10,10 +10,10 @@ RSpec.describe CapitalizeDecorator do
     end
 
     it 'does not modify the original name' do
-      person = Person.new(name: 'Jane smith', age: 25)
+      person = Person.new(name: 'Eloghene Otiede', age: 25)
       decorator = CapitalizeDecorator.new(person)
       decorator.correct_name
-      expect(person.name).to eq('Jane smith')
+      expect(person.name).to eq('Eloghene Otiede')
     end
   end
 end
