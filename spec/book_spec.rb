@@ -25,7 +25,7 @@ describe Book do
   end
 
   context '#to_hash method' do
-    it 'returns a hash with the book attributes' do
+    it 'returns a hash with the existing book attributes' do
       expect(book.to_hash).to eq({
                                    'title' => 'Title',
                                    'author' => 'Author',
