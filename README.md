@@ -112,6 +112,11 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/Paulinelali)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ayomide-sunday-emmanuel/)
 
+👤 **Eloghene Otiede**
+
+- GitHub: [@githubhandle](https://github.com/geekelo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eloghene-otiede/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
