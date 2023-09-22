@@ -46,6 +46,7 @@
 
 - **Create Person, Student and Teacher classes**
 - **Person class inheritance**
+- **Preserve Books**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
