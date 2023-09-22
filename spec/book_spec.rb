@@ -3,7 +3,7 @@ require_relative '../person'
 
 describe Book do
   book = Book.new('Title', 'Author')
-  person = Person.new(name: 'John Doe', age: 25)
+  person = Person.new(name: 'John Dave', age: 25)
   rental_date = '2023-08-16'
 
   context 'When Initializing' do
